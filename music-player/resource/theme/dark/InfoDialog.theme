@@ -1,0 +1,35 @@
+#InfoDialog{
+    qproperty-backgroundColor: white;
+    qproperty-borderColor: rgba(0, 0, 0, 0.2);
+}
+
+#InfoClose {
+    border-image: url(:/images/light/images/window_close_normal.png);
+}
+#InfoClose:hover {
+    border-image: url(:/images/light/images/window_close_hover.png);
+}
+#InfoClose:pressed {
+    border-image: url(:/images/light/images/window_close_press.png);
+}
+
+#InfoTitle{
+    qproperty-alignment: AlignCenter;
+    color: black;
+    font-size: 12px;
+}
+#InfoSplit{
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+#InfoKey{
+    border: 1px solid transparent;
+    qproperty-alignment: AlignRight;
+    font-size: 11px;
+    color: #606060;
+}
+#InfoValue{
+    border: 1px solid transparent;
+    qproperty-alignment: AlignLeft;
+    font-size: 11px;
+    color: #000000;
+}
